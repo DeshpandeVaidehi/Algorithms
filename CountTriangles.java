@@ -22,14 +22,7 @@ public class CountTriangles {
             }
             k++;
         }
-        for (int i = 0; i < col; i++) {
-            for (int j = 0; j < row; j++) {
-                if(arr[j][i] == 'b') {
-
-                }
-            }
-        }
-
+      
         int result = ct.calculate(row, col, arr);
         System.out.println(result);
     }
